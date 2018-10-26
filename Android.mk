@@ -54,7 +54,9 @@ LOCAL_AAPT_FLAGS := \
     --rename-manifest-package com.google.android.apps.nexuslauncher \
     --extra-packages android.support.v7.recyclerview
 
+### add add LOCAL_SDK_VERSION := 27 to fix compile error
 LOCAL_SDK_VERSION := 27
+
 LOCAL_MIN_SDK_VERSION := 26
 LOCAL_PACKAGE_NAME := Launcher3
 LOCAL_PRIVILEGED_MODULE := true
